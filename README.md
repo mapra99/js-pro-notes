@@ -24,3 +24,30 @@ JavaScript, as other languages, has a set of fundamentals that are a must-be to 
 - Event loop
 - Design patterns
 
+# Starting a project
+
+## Initializing NPM
+
+- Initialize the project. That is, create a `package.json` file with the project info (some metadata) and the dependencies manifest.
+
+```shell
+npm init -y
+```
+
+- Install a development server.
+
+```shell
+npm install -D live-server
+```
+
+In `package.json` file a script can be created to associate the live-server with some npm command.
+
+```javascript
+// package.json
+// ...
+"scripts": {
+	"start": "live-server"
+},
+// ...
+```
+
