@@ -83,3 +83,10 @@ They manage algorithms and responsabilities among them
 - Visitor
 
 `jQuery` uses the Composite pattern.
+
+#### Observer Pattern
+The observer pattern establishes the relationship between two participants: The subject and the watchers.
+- The subject offers a subscription mechanism
+- On sbscription, the subject will be able to notify the watchers of something new.
+- The watchers have a mechanism to unsubscribe from the subject.
+
