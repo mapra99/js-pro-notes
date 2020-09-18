@@ -386,7 +386,25 @@ This is almost a unique JS topic, that changes the way we deal with classes and 
   const link = new Hero('Link')
   ```
 
+## How does JS work?
 
+JS is an interpreted language.
+
+Initially JS arrived along with Netscape browser. It was when Google released Google Chrome, that Google reinvented the way that Js engines worked.
+
+1. Receives the source code
+
+2. Parses the code and produces an Abstract Syntax Tree (AST)
+
+3. An interpreter catches the bytecode and runs it
+
+4. The bytecode is converted into machine code.
+
+   ![](./notes_assets/js_engine.png)
+
+   
+
+### Parsers and the Abstract Syntax Tree
 
 
 
